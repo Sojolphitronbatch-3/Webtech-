@@ -1,0 +1,38 @@
+/* Selector 1: ID Selector */
+#main-container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333;
+    overflow: auto;
+}
+
+/* Selector 2: Class Selector */
+.card {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    vertical-align: top;
+}
+
+/* Selector 3: Element Selector */
+h2 {
+    color: #0055aa;
+    text-align: center;
+}
+
+/* Selector 4: Pseudo-class Selector */
+.card:hover {
+    background-color: #f0f0f0;
+    z-index: 2;
+    position: relative;
+}
+
+/* Selector 5: Descendant Selector */
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
