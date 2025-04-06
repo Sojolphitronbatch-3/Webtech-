@@ -1,0 +1,109 @@
+/* Selector 1: Body styling - using entire frame */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Selector 2: Sticky heading styling */
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding: 15px 0;
+    margin: 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Selector 3: Form container */
+.form-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Selector 4: Form table styling */
+form table {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+/* Selector 5: Table cells styling */
+form table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px 0;
+    width: calc(100% - 30px);
+    text-align: center;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Checkbox group styling */
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.checkbox-group {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
