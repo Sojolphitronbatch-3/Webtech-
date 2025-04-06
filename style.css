@@ -1,0 +1,64 @@
+/* Selector 1: Class Selector for form layout */
+.form-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #333;
+    overflow: auto;
+    background-color: #f9f9f9;
+}
+
+/* Selector 2: Element Selector */
+h2 {
+    text-align: center;
+    color: #003366;
+}
+
+/* Selector 3: Class Selector for table style */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+
+/* Selector 4: Pseudo-class selector for hover effect */
+input[type="submit"]:hover {
+    background-color: #0055aa;
+    color: white;
+    cursor: pointer;
+}
+
+/* Selector 5: ID or any field highlight with position and z-index */
+fieldset {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #666;
+}
+
+/* Extra: inline-block for inputs */
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], select {
+    display: inline-block;
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Extra: Button Style */
+.submit-box {
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 10px 25px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
